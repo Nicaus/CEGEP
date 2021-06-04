@@ -1,3 +1,2 @@
 # CEGEP
-Projects made during cégep
-yessir
+Projet personnel fait pour le cours de web
