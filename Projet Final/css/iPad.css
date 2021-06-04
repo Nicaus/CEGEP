@@ -1,0 +1,27 @@
+.flex{
+    padding-left: 15px;
+    flex-direction: row;
+    gap: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+}
+
+.container {
+    display: flex;
+}
+
+.containerReverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.item{
+    margin: 5px;
+    text-align: center;
+    width: 75%;
+}

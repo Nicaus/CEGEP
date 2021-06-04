@@ -1,0 +1,86 @@
+/* LEMAR ANDAR */
+/* CSS LIBRARY */
+
+/* Font : NUNITO REGULAR 400 */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    color: #d24d5c;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    height: auto;
+    text-align: center;
+    margin: 15px 15px 0;
+}
+
+main{
+    margin: 15px;
+    padding: 15px;
+}
+
+footer{
+    margin: 15px;
+    padding: 7px;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #bc2739;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2.25rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+p, ul, ol, li, a{
+    font-size: 1rem;
+}
+
+table{
+    background-color: #ffefb6;
+    border-collapse: collapse;
+    width: 75%;
+    box-shadow: 15px 10px #bc2739;
+}
+
+td, th{
+    border: solid #d24d5c 3px;
+    font-size: 1.25rem;
+    color: #d24d5c;
+    padding: 5px;
+}
+
+tr:hover{
+    background-color: #ffcaa7;
+}
+
+a:hover{
+    background-color: #ffcaa7;
+    color: #bc2739;
+}

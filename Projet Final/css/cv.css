@@ -1,0 +1,14 @@
+.carree{
+    border: 5px solid #be3545;
+    background-color: #ffefb6;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+li{
+    list-style: none;
+}
+
+p, li{
+    margin-bottom: 5px;
+}

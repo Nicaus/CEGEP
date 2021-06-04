@@ -1,0 +1,89 @@
+#background{
+    background-image: url(../img/background.png);
+}
+
+#navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    grid-template-columns: auto auto;
+    gap: 9px;
+}
+
+.boitecentre{
+    display: grid;
+}
+
+.icon{
+    width: 48px;
+    height: 48px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.couleur{
+    background-color: #ffcaa7;
+    border: 5px solid #bc2739;
+}
+
+.encercler{
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-align: center;
+    border: 5px solid #be3545;
+    border-radius: 120px;
+    background-color: #d24d5c;
+    color: #fee58d;
+}
+
+.centrerImage{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centrerTexte{
+    text-align: center;
+}
+
+.accentuer{
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #f12c43;
+}
+
+.desaccentuer{
+    color: #d87883;
+    font-size: small;
+}
+
+.carree{
+    border: 5px solid #be3545;
+    background-color: #ffefb6;
+    padding: 25px 100px;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
+.espaceBot{
+    margin-bottom: 15px;
+}
+
+.espaceLeft{
+    margin-left: 15px;
+}
+
+
+.container {
+    grid-template-columns: 50% 50%;
+}
+
+.item{
+    text-align: center;
+}

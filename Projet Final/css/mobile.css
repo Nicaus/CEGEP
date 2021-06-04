@@ -1,0 +1,21 @@
+#navigation {
+    flex-direction: row;
+}
+
+.flex-item {
+    flex-grow: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carree{
+    padding: 25px 10px;
+}
+
+.larger-flex {
+    width: 100%;
+}
+
+div{
+    margin-bottom: 15px;
+}
