@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="packageannexe6b.FrameString">
+  <grid id="27dc6" binding="monPanel" layout-manager="FlowLayout" hgap="40" vgap="15" flow-align="1">
+    <constraints>
+      <xy x="20" y="13" width="1221" height="549"/>
+    </constraints>
+    <properties>
+      <minimumSize width="1200" height="56"/>
+      <preferredSize width="800" height="500"/>
+    </properties>
+    <border type="line">
+      <color color="-8119476"/>
+    </border>
+    <children>
+      <component id="b6940" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <preferredSize width="700" height="36"/>
+          <text value="Entrez une chaîne de caractères ( une phrase de préférence )"/>
+        </properties>
+      </component>
+      <component id="829f8" class="javax.swing.JTextArea" binding="champString">
+        <constraints/>
+        <properties>
+          <preferredSize width="250" height="150"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f66b5" class="javax.swing.JButton" binding="boutonResultats">
+        <constraints/>
+        <properties>
+          <preferredSize width="900" height="24"/>
+          <text value="Trouvez :"/>
+        </properties>
+      </component>
+      <component id="9b070" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <alignmentX value="0.0"/>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="700" height="36"/>
+          <text value="1. Le caractère à l'indice 8 :"/>
+        </properties>
+      </component>
+      <component id="ba57a" class="javax.swing.JLabel" binding="reponse1">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1da1d" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="700" height="36"/>
+          <text value="2. indice du premier 'e' de la chaîne :"/>
+        </properties>
+      </component>
+      <component id="24ec2" class="javax.swing.JLabel" binding="reponse2">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="67229" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="700" height="36"/>
+          <text value="3. Indice du dernier 'e' de la chaîne:"/>
+        </properties>
+      </component>
+      <component id="aaad0" class="javax.swing.JLabel" binding="reponse3">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3ad4e" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="700" height="36"/>
+          <text value="4. Le nombre de caractères du texte :"/>
+        </properties>
+      </component>
+      <component id="3c407" class="javax.swing.JLabel" binding="reponse4">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d1391" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <font name="Kozuka Gothic Pro B" size="14"/>
+          <horizontalAlignment value="2"/>
+          <preferredSize width="700" height="36"/>
+          <text value="5. Est-ce que la phrase commence par une majuscule ? "/>
+        </properties>
+      </component>
+      <component id="8e257" class="javax.swing.JLabel" binding="reponse5">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="dfd39" binding="panelNo6" layout-manager="FlowLayout" hgap="0" vgap="0" flow-align="0">
+        <constraints/>
+        <properties>
+          <minimumSize width="217" height="25"/>
+          <preferredSize width="700" height="25"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3fd94" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Kozuka Gothic Pro B" size="14"/>
+              <horizontalAlignment value="2"/>
+              <horizontalTextPosition value="10"/>
+              <preferredSize width="240" height="16"/>
+              <text value="6. Nombre d'occurences du mot : "/>
+              <verticalAlignment value="1"/>
+            </properties>
+          </component>
+          <component id="682b8" class="javax.swing.JTextField" binding="champMot">
+            <constraints/>
+            <properties>
+              <margin top="2" left="6" bottom="2" right="6"/>
+              <minimumSize width="0" height="24"/>
+              <preferredSize width="140" height="24"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2006" class="javax.swing.JLabel" binding="reponse6">
+        <constraints/>
+        <properties>
+          <background color="-876976"/>
+          <horizontalAlignment value="4"/>
+          <opaque value="true"/>
+          <preferredSize width="150" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="projetannexe10.TableMatch">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="700" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="600" height="32767"/>
+      <minimumSize width="700" height="210"/>
+      <preferredSize width="1000" height="210"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bf152" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <minimumSize width="250" height="200"/>
+          <preferredSize width="250" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="515f1" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Consolas" size="14"/>
+              <preferredSize width="235" height="60"/>
+              <text value="Nombre de convives :"/>
+            </properties>
+          </component>
+          <component id="80812" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Consolas" size="14"/>
+              <preferredSize width="235" height="60"/>
+              <text value="Voulez--vous une banquette ? "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a3fb0" layout-manager="FlowLayout" hgap="5" vgap="20" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="200"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="33b31" class="javax.swing.JSpinner" binding="spinner">
+            <constraints/>
+            <properties>
+              <preferredSize width="80" height="40"/>
+            </properties>
+          </component>
+          <component id="5d1ce" class="javax.swing.JCheckBox" binding="ouiCheckBox" default-binding="true">
+            <constraints/>
+            <properties>
+              <preferredSize width="125" height="40"/>
+              <text value="oui"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="5fc5b" class="javax.swing.JButton" binding="bouton">
+        <constraints/>
+        <properties>
+          <maximumSize width="500" height="30"/>
+          <minimumSize width="150" height="30"/>
+          <preferredSize width="500" height="30"/>
+          <text value="Valider"/>
+        </properties>
+      </component>
+      <grid id="4c87d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="250" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ecd31" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Consolas" size="14"/>
+              <preferredSize width="235" height="70"/>
+              <text value="Rendez vous à la table : "/>
+            </properties>
+          </component>
+          <component id="2a11c" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <font name="Consolas" size="14"/>
+              <preferredSize width="235" height="16"/>
+              <text value="Nombre de tables occupées :"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="aae7b" layout-manager="FlowLayout" hgap="5" vgap="30" flow-align="1">
+        <constraints/>
+        <properties>
+          <preferredSize width="200" height="150"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="45a8c" class="javax.swing.JLabel" binding="labelNumeroTable">
+            <constraints/>
+            <properties>
+              <background color="-12501482"/>
+              <font name="Consolas" size="12"/>
+              <foreground color="-328966"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="true"/>
+              <preferredSize width="180" height="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="64353" class="javax.swing.JLabel" binding="labelNbTablesOccupees">
+            <constraints/>
+            <properties>
+              <background color="-13483747"/>
+              <font name="Consolas" size="12"/>
+              <foreground color="-328966"/>
+              <horizontalAlignment value="0"/>
+              <opaque value="true"/>
+              <preferredSize width="180" height="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
